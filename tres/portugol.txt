@@ -1,0 +1,14 @@
+ESCREVAL("VocÊ está no atendimento da empresa Vyoleta, qual é o seu nome?")
+var nomePessoa = ()
+
+ESCREVAL("Bom dia, " + nomePessoa + "!")
+ESCREVAL(nomePessoa + ", digite o seu salário:")
+var salario = ()
+
+ESCREVAL("Seu salário é de" + salario + "reais!"
+
+SE (salario > 500)
+ESCREVAL(!Você não tem direito à aumento!")
+SE NÃO 
+var aumento = salario * 1,3
+ESCREVAL("Parabéns! Seu salário atual é de: " + salario + "reais!")

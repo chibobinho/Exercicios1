@@ -1,0 +1,11 @@
+ESCREVAL("Qual é o seu nome?")
+var nomePessoa = ()
+
+ESCREVAL(nomePessoa + ", qual foi o ano que você nasceu?")
+var anoNascimento = ()
+
+var idade = 2021 - anoNascimento
+var semanas = idade * 52
+
+ESCREVAL("Então sua idade é: " idade)
+ESCREVAL("E em semanas: " semanas)

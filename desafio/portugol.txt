@@ -1,0 +1,26 @@
+ESCREVAL("Qual é a sua idade?")
+var idade = ()
+
+SE (idade >= 5 e idade <=7)
+ESCREVAL("Você está na categoria Infantil A, 5 - 7 anos.")
+ESCREVAL("Categorizador finalizado")
+
+MAS SE (idade >= 8 e idade <= 10)
+ESCREVAL("Você está na categoria Infantil B, 8 - 10 anos.")
+ESCREVAL("Categorizador finalizado")
+
+MAS SE (idade >= 11 e idade <= 13)
+ESCREVAL("Você está na categoria Juvenil A, 11 - 13 anos.")
+ESCREVAL("Categorizador finalizado")
+
+MAS SE (idade >= 14 e idade <= 17)
+ESCREVAL("Você está na categoria Juvenil B, 14 - 17 anos.")
+ESCREVAL("Categorizador finalizado")
+
+MAS SE (idade >= 18)
+ESCREVAL("Você está na categoria sênior, maiores de 18 anos.")
+ESCREVAL("Categorizador finalizado")
+
+SENÃO 
+ESCREVAL("Você está enquadrado em nenhuma categoria, volte quando tiver no minimo 5 anos.")
+ESCREVAL("Categorizador finalizado")

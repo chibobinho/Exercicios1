@@ -1,0 +1,16 @@
+ESCREVAL("Qual é o seu nome?")
+var nomePessoa = ()
+
+ESCREVAL("Olá, " + nomePessoa + "!")
+ESCREVAL("Digite a sua idade:")
+var idade = ()
+
+var meses = idade * 12;
+var dias = meses * 30;
+var horas = dias * 24;
+var minutos = horas * 60;
+
+ESCREVAL(nomePessoa + ", sua idade em meses é: " meses)
+ESCREVAL("Em dias é: " dias)
+ESCREVAL("Em horas é: " horas)
+ESCREVAL("Em minutos é: " minutos)
